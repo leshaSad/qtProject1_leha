@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget name="Курс валют" class="QWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>799</width>
+    <height>454</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget name="verticalLayoutWidget_3" class="QWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>95</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout name="verticalLayout_3" class="QVBoxLayout">
+    <item>
+     <widget name="label_7" class="QLabel">
+      <property name="text">
+       <string>Курс валют</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget name="pushButton_6" class="QPushButton">
+      <property name="text">
+       <string>Смотреть</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget name="verticalLayoutWidget" class="QWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>751</width>
+     <height>157</height>
+    </rect>
+   </property>
+   <layout name="verticalLayout" class="QVBoxLayout">
+    <item>
+     <layout name="horizontalLayout_3" class="QHBoxLayout">
+      <item>
+       <widget name="label_5" class="QLabel">
+        <property name="text">
+         <string>Русский рубль (RUB)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget name="label_4" class="QLabel">
+        <property name="text">
+         <string>Китайский юань (CNY)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget name="label_3" class="QLabel">
+        <property name="text">
+         <string>Японская иена (JPY)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget name="label_2" class="QLabel">
+        <property name="text">
+         <string>Евро (EUR)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget name="label" class="QLabel">
+        <property name="text">
+         <string>Доллар США (USD)</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout name="horizontalLayout_2" class="QHBoxLayout">
+      <item>
+       <widget name="lineEdit_5" class="QLineEdit"/>
+      </item>
+      <item>
+       <widget name="lineEdit_4" class="QLineEdit"/>
+      </item>
+      <item>
+       <widget name="lineEdit_3" class="QLineEdit"/>
+      </item>
+      <item>
+       <widget name="lineEdit_2" class="QLineEdit"/>
+      </item>
+      <item>
+       <widget name="lineEdit" class="QLineEdit"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout name="horizontalLayout" class="QHBoxLayout">
+      <item>
+       <widget name="pushButton_5" class="QPushButton">
+        <property name="text">
+         <string>Добавить</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget name="pushButton_4" class="QPushButton">
+        <property name="text">
+         <string>Добавить</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget name="pushButton_3" class="QPushButton">
+        <property name="text">
+         <string>Добавить</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget name="pushButton_2" class="QPushButton">
+        <property name="text">
+         <string>Добавить</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget name="pushButton" class="QPushButton">
+        <property name="text">
+         <string>Добавить</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget name="verticalLayoutWidget_2" class="QWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>340</y>
+     <width>164</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout name="verticalLayout_2" class="QVBoxLayout">
+    <item>
+     <widget name="label_6" class="QLabel">
+      <property name="text">
+       <string>Сумма в</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget name="comboBox" class="QComboBox">
+      <item>
+       <property name="text">
+        <string>Доллар США (USD)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Евро (EUR)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Японская иена (JPY)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Китайский юань (CNY)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Русский рубль (RUB)</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget name="lineEdit_6" class="QLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
