@@ -2,6 +2,7 @@ import sys
 import sqlite3
 
 import qdarktheme
+from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QComboBox, QLineEdit
 from PyQt5.QtWidgets import QLCDNumber, QLabel
 from registration import RegistrationWindow
@@ -14,11 +15,14 @@ class First_Window(QWidget):
         super().__init__()
         self.initUI()
         self.password_bd = sqlite3.connect('login_password.db')
+        self.pixmap = QPixmap('ent1.png')
+
 
     def initUI(self):
         qdarktheme.setup_theme("auto")  # тема окна будет такая же как в системе
         self.setFixedSize(400, 400)
         self.setGeometry(300, 300, 400, 400)
+        self.setWindowTitle("Вход")
 
         '''Делаем искиз окна и подключение виджетов'''
 

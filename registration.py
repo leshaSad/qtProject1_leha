@@ -19,6 +19,8 @@ class RegistrationWindow(QWidget):
         qdarktheme.setup_theme("auto")
         self.setFixedSize(400, 400)
         self.setGeometry(300, 300, 400, 400)
+        self.setWindowTitle("Регистрация")
+
         self.start_text = QLabel(self)
         self.start_text.setText('<b>Регистрация в Кошелеке</b>')
         self.start_text.move(self.width() // 4, 20)
@@ -28,10 +30,6 @@ class RegistrationWindow(QWidget):
         self.nikename_t.move(10, 50)
         self.nikename = QLineEdit(self)
         self.nikename.move(100, 50)
-
-        self.label = QLabel(self)
-        self.label.setPixmap(self.pixmap)
-        self.label.resize(10, 100)
 
         self.login_t = QLabel(self)
         self.login_t.setText('<b>E-mail:<b>')
