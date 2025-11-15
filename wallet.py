@@ -74,9 +74,7 @@ class mainWindow(QMainWindow):
 
     def count(self):
         print('a', int(self.count_money1.text()) > 0)
-        if int(self.count_money1.text()) > 0 and int(self.count_money2.text()) > 0 and int(
-                self.count_money3.text()) > 0 and (self.count_money4.text()) > 0:
-            print('df')
+        try:
             if self.combo.currentText() == 'RUB':
                 money1 = int(self.count_money1.text()) * 81
                 money2 = int(self.count_money2.text())
@@ -93,7 +91,23 @@ class mainWindow(QMainWindow):
                 moneys = sum([money1, money2, money3, money4])
                 self.counts.setText(str(moneys))
                 print(moneys)
-        else:
+            elif self.combo.currentText() == 'CNY':
+                money1 = int(int(self.count_money1.text()) * 0.1212)
+                money2 = int(int(self.count_money2.text()) * 11.4)
+                money3 = int(int(self.count_money3.text()) * 0.1212)
+                money4 = int(self.count_money4.text())
+                moneys = sum([money1, money2, money3, money4])
+                self.counts.setText(str(moneys))
+                print(moneys)
+            elif self.combo.currentText() == 'EUR':
+                money1 = int(int(self.count_money1.text()) * 1.16)
+                money2 = int(int(self.count_money2.text()) * 95)
+                money3 = int(self.count_money3.text())
+                money4 = int(int(self.count_money4.text()) * 8.25)
+                moneys = sum([money1, money2, money3, money4])
+                self.counts.setText(str(moneys))
+                print(moneys)
+        except Exception:
             self.error.setText('Введите целое неотрмцательное число')
 
     def memo(self):
