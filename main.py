@@ -100,7 +100,7 @@ class mainWindow(QMainWindow):
         self.hide()
         self.next = Memo()
         self.next.show()
-
+print()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
