@@ -101,6 +101,7 @@ class mainWindow(QMainWindow):
         self.next = Memo()
         self.next.show()
 print()
+print('b mbkhvgj bmn,bvjc m,bjvk m')
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
